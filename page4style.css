@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main_outer{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black;     */
+    display: flex;
+    flex-direction: row;
+}
+#left_main{
+    height: 620px;
+    width: 70%;
+    /* border: 1px solid black; */
+    
+}
+#left_main img{
+    height: 620px;
+    width: 100%;
+}
+#right_main{
+    height: 620px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+#cartA_head{
+    height: 90px;
+    width: 100%;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.459) ; */
+    font-size: 25px;
+    line-height: 90px;
+    margin-left: 25px;
+}
+#cancel{
+    position: relative;
+    left: 250px;
+}
+#eligible{
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.411);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    font-size: 15px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    line-height: 40px;
+    padding-left: 20px;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#outer_div_2{
+    height: 260px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+#left_img{
+    height: 260px;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+#right_data{
+    height: 260px;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction:column ; */
+    align-items:center ;
+}
+
+#pic{
+    height: 180px;
+    width: 70%;
+    /* border: 1px solid black; */
+    background-image: url("https://baroque.pk/cdn/shop/files/20_6e6646c4-006b-4464-939e-1bee47142b91.jpg?v=1733309484&width=120");
+}
+#main_out_3{
+    height: 180px;
+    width: 78%;
+    /* border: 1px solid black; */
+}
+.inside_data{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+#dataA{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#dataB{
+    font-size: 14px;
+}
+#dataC{
+    opacity: 0.7;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#text_div_EE{
+    height: 30px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 3px;   
+    line-height: 35px;
+    
+}
+#text_div_EE:hover{
+    opacity: 1;
+    border: 1px solid black;
+}
+#text_div_EE span{
+    height: 40px;
+    width: 20px;
+    /* border: 1px solid black; */
+    
+    margin: 5px;
+    font-size: 20px;
+}
+#line{
+    height: 110px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+}
+#taxes{
+    height: 40px;
+    width: 100%;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    display: flex;
+    align-items: end;
+    margin-left: 20px;
+}
+#butnADD{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 3px;   
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.445); */
+}
+#butnADD button{
+    height: 50px;
+    width: 80%;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+    background: linear-gradient(to right, #ffffff00 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right; 
+    color: white;
+    cursor: pointer;
+    transition: background-position 0.7s ease; 
+    letter-spacing: 3px;
+}
+
+#butnADD button:hover{
+ 
+    color: black; 
+    background-position: left; 
+}

@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#marquee_div{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-color: black;
+    
+}
+#marqueeline{
+    
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+#comments{
+    font-size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 35px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.795), 0 0 20px rgba(131, 131, 131, 0.842);
+    cursor: pointer;
+    z-index: 500;
+}
+
+
+
+
+#nav_bar_backgrnd{
+    height: 75px;
+    width: 100%;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+
+}
+
+#hover_bckgrnd{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+    
+}
+
+
+
+#div_menu{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40px;
+    background-image: url("menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+#div_logo{
+    height: 40px;
+    width: 145px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    background-image: url("LOGO_PNG_V01.png ");
+    background-size:contain;
+    cursor: pointer;
+}
+
+#div_tools{
+    height: 50px;
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 10px;
+}
+#slect_box{
+    height: 50px;
+    width: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    
+}
+#selct_A{
+    font-size: 13px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#accont_icon{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-self: center;
+    background-image: url("person_24dp_000000_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: contain;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+#accont_iconA{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-self: center;
+    background-image: url("search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: contain;
+    margin-right: 10px;
+    cursor: pointer;
+
+    
+}
+
+#accont_iconB{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-self: center;
+    background-image: url("shopping_bag_24dp_000000_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: contain;
+    margin-right: 10px;
+    cursor: pointer;
+
+    
+}
+
+#outer_div{
+    height: 6800px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    margin-bottom: 50PX;
+}
+#main_container{
+    height: 6700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#left_main_div{
+    height: 830px;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    position: sticky;
+    top: 0px;
+}
+#mid_main_div{
+    height: 6650px;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+#right_main_div{
+    height: 830px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showA{
+    height: 83px;
+    width: 56px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    overflow: hidden;
+}
+.showB{
+    height: 800px;
+    width: 600px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    overflow: hidden;
+}
+.showB img{
+    height: 800px;
+    width: 600px;
+}
+
+#Div_A{
+    height: 180px;
+    width: 76%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#text_div_A{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 3px;
+    
+    
+}
+#text_div_B{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    
+    letter-spacing: 3px;
+    
+    
+}
+#text_div_C{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 3px;
+    
+    
+}
+#text_div_D{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 3px;
+    
+    
+}
+#Div_B{
+    height: 800px;
+    width: 76%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.342); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+#text_div_AA{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 18px;
+   
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+#text_div_BB{
+    height: 40px;
+    width: 30%;
+    border: 1px solid black;
+    font-size: 16px;
+    
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+#text_div_CC{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+#size_chart{
+    background-color: rgb(194, 198, 202);
+    height: 30px;
+    width: 89px;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    cursor: pointer;
+}
+#text_div_DD{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+   
+    letter-spacing: 3px;   
+    line-height: 40px;
+    margin-top: 10px;
+}
+.size{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+    padding: 8px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.size:hover{
+    opacity: 1;
+    border: 1px solid black;
+}
+#text_div_EE{
+    height: 40px;
+    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 3px;   
+    line-height: 35px;
+    margin-top: 20px;
+}
+#text_div_EE:hover{
+    opacity: 1;
+    border: 1px solid black;
+}
+#text_div_EE span{
+    height: 40px;
+    width: 20px;
+    /* border: 1px solid black; */
+    
+    margin: 5px;
+    font-size: 20px;
+}
+#right_main_div a{
+    text-decoration: none;
+}
+#butnADD{
+    height: 110px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 3px;   
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    
+}
+#butnADD button{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+    background: linear-gradient(to right, #ffffff00 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right; 
+    color: white;
+    cursor: pointer;
+    transition: background-position 0.7s ease; 
+    letter-spacing: 3px;
+    
+}
+
+#butnADD button:hover{
+ 
+    color: black; 
+    background-position: left; 
+}
+
+.iconA{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    letter-spacing: 3px;
+    letter-spacing: 3px;   
+    line-height: 60px;
+    opacity: 0.7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    cursor: pointer;
+}
+
+#main_div_headD{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+
+}
+#sectionD_head{
+    height: 60px;
+    width: 500px;
+    /* border-bottom: 1px solid black; */
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    bottom: 30px;
+}            
+
+
+
+
+#grid_container_main{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.Grid_container{
+    height: 500px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 400px 1fr 1fr 1fr;
+    row-gap: 9px;
+    column-gap: 30px;
+    
+    z-index: 1;
+    
+}
+.grid_A_containers{
+    /* border: 1px solid black; */
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+/* .grid_A_containerA{
+    border: 1px solid black;
+    
+}
+.grid_A_containerB{
+    border: 1px solid black;
+    
+} */
+.grid_A_containerA{
+    background-image: url("https://baroque.pk/cdn/shop/files/116_cd49aaf0-53c2-40b9-9ba9-0761f5629f03.jpg?v=1733310164&width=700");
+    background-size: cover;
+}
+.grid_A_containerA:hover{
+    background-image: url("https://baroque.pk/cdn/shop/files/117_145901c3-9b45-494f-90f7-b76608e23953.jpg?v=1733310164&width=300");
+    
+}
+.grid_A_containerB{
+    background-image: url("https://baroque.pk/cdn/shop/files/71_14d9c9b1-69c1-4d80-b97b-24855a33b5a9.jpg?v=1733309895&width=700");
+    background-size: cover;
+}
+.grid_A_containerB:hover{
+    background-image: url("https://baroque.pk/cdn/shop/files/72_fca4daf0-d0cc-4ab4-a73b-304ddf8c126a.jpg?v=1733309895&width=700");
+}
+.grid_A_containerC{
+    background-image: url("https://baroque.pk/cdn/shop/files/196_ef294e7a-f1ea-4265-99f5-5ab29de6fbb2.jpg?v=1734076761&width=700");
+    background-size: cover;
+}
+.grid_A_containerC:hover{
+    background-image: url("https://baroque.pk/cdn/shop/files/197_9a6e8dba-c5d8-4a4e-9e47-576781d32278.jpg?v=1734076761&width=700");
+}
+.grid_A_containerD{
+    background-image: url("https://baroque.pk/cdn/shop/files/106_6a715725-afec-43e8-86bd-c92a397c774d.jpg?v=1730923721&width=700");
+    background-size: cover;
+}
+.grid_A_containerD:hover{
+    background-image: url("https://baroque.pk/cdn/shop/files/107_fe35fecd-4e1c-468b-90b5-144167a7202c.jpg?v=1730923721&width=700");
+}
+
+
+
+
+
+#outframeF{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_F{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text{
+    height: 30px;
+    width: 250px;
+    /* border: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0000009d;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.text:hover{
+    color: #000000;
+}
+#iconsEnd{
+    height: 50px;
+    width: 370px;
+    font-size: 17px;
+    /* border: 1px solid black; */
+    letter-spacing: 17px;
+    text-align: end;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#iconsEnd i:hover{
+    color:black;
+}
+#select_div_E{
+    height: 80px;
+    width: 170px;
+    /* border: 1px solid black; */
+    
+}
+#selct_E{
+    font-size: 18px;
+    display: flex;
+    justify-self: end;
+    border: none;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
