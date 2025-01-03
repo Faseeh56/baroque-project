@@ -9,14 +9,33 @@
     background-color: black;
     
 }
-#marqueeline{
+#animationA{
     
     color: white;
     font-size: 15px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif; 
+    animation: slideInA 5s alternate infinite 1s ease;
+    
+}
+#animationB{
+    
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    animation: slideInB 5s alternate infinite  1s ease;
 }
 
+@keyframes slideInA {
+    from { transform: translateY(60px); }
+    to { transform: translateY(-60px); }
+  }   
+  @keyframes slideInB {
+    from { transform: translateY(60px); }
+    to { transform: translateY(-60px); }
+  }
+ 
 
 
                      /* sectionA */
@@ -266,6 +285,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
     column-gap: 30px;
+    
 }
 
 /* .gridA{
@@ -273,26 +293,57 @@
 } */
 #gridA1{
     height: 510px;
-    background-image: url("https://baroque.pk/cdn/shop/files/02_Banner219_ef747ce0-55f8-4868-9619-f4472cef18b4.jpg?v=1734953812&width=500");
-    background-size: contain;
+   
+    background-size: cover;
     cursor: pointer;
     background-repeat: no-repeat;
+    
+    overflow: hidden;
+}
+#gridA1 img{
+    height: 510px;
+    transition: 6s ease all;
+}
+
+#gridA1 img:hover{
+    transform: scale(1.2);
 }
 #gridA2{
     height: 510px;
-    background-image: url("https://baroque.pk/cdn/shop/files/02_Banner227.jpg?v=1734953920&width=500");
-    background-size: contain;
+   
+    background-size: cover;
     cursor: pointer;
     background-repeat: no-repeat;
+    
+    overflow: hidden;
+}
+#gridA2 img{
+    height: 510px;
+    transition: 6s ease all;
+}
+
+#gridA2 img:hover{
+    transform: scale(1.2);
 }
 
 #gridA3{
     height: 510px;
-    background-image: url("https://baroque.pk/cdn/shop/files/02_Banner223.jpg?v=1733469984&width=500");
-    background-size: contain;
+   
+    background-size: cover;
     cursor: pointer;
     background-repeat: no-repeat;
+    
+    overflow: hidden;
 }
+#gridA3 img{
+    height: 510px;
+    transition: 6s ease all;
+}
+
+#gridA3 img:hover{
+    transform: scale(1.2);
+}
+
 
 #gridA4{
     font-size: 25px;
